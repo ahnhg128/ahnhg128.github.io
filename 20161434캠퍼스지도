@@ -1,0 +1,13 @@
+<!doctype html> <!-- worldMap.html -->
+<html><head><meta charset="utf-8"/>
+<meta name="viewport"content="width=device-width,initial-scale=1"/>
+<title>HTML5클라이언트 사이드 이미지맵 실습</title>
+</head>
+<body>
+<b>대전대학교 건물을 클릭하세요</b><br/>
+<img src="DU.png"border=0 usemap="#Daejeon University">
+<map name="Daejeon University">
+<area alt='1' shape="poly" coords='' href="./Seoul1.html">
+</map>
+</body>
+</html>
