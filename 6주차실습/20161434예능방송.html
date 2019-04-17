@@ -1,0 +1,41 @@
+<!doctype html> <!--  Tv Program.html  -->
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>방송사별 예능 프로그램</title>
+<script>
+function broadcast(obj) {
+var SBS = [ "동상이몽2", "본격연예 한밤", "불타는 청춘", "백종원의 골목식당", "가로채널", "전설의 빅피쉬", "접속! 무비월드", "정글의 법칙", "SBS 인기가요", "런닝맨", "집사부일체", "미운 우리 새끼", "SBS 슈퍼콘서트", "THE SHOW", "윤도현의 더 스테이지 빅플레져"];
+var KBS = [ "크큭티비", "더 히트", "옥탑방의 문제아들", "모모문고", "꿀잼 퀴즈방", "전국노래자랑", "살림남2", "연예가중계", "독립영화관", "노래가 좋아", "영화가 좋다", "개그콘서트", "배틀트립", "안녕하세요", "해피투게더4", "해피선데이"];
+var MBC = [ "쇼! 음악중심", "복면가왕", "나 혼자 산다", "라디오스타", "신비한TV 서프라이즈", "출발! 비디오여행", "섹션TV연예통신", "전지적참견시점", "궁민남편", "마이 리틀 텔레비전 V2", "구해줘! 홈즈", "호구의 연애", "다시 쓰는 차트쇼 지금 1위는?", "Target : Billboard-KILL BILL", "어서와 한국은 처음이지?", "대한외국인", "Show Champion", "MBC PICK", "주간 아이돌", "비디오스타", "침착한 주말", "아이돌 talk Tv"];
+var JTBC = [ "슈퍼밴드", "아는형님", "K-POP CHALLENGE <스테이지 K>", "트래블러", "요즘애들", "비밀 기획단", "냉장고를 부탁해", "랜선라이프", "한끼줍쇼", "방구석1열", "아이돌룸"];
+var target = document.getElementById("programx");
+ if(obj.value == "S1") var k = SBS;
+  else if(obj.value == "S2") var k = KBS;
+  else if(obj.value == "S3") var k = MBC;
+  else if(obj.value == "S4") var k = JTBC;
+ target.options.length = 0;
+  for ( x in k) {
+ var opt = document.createElement("option");
+ opt.value = k[x];
+ opt.innerHTML = k[x];
+ target.appendChild(opt);}}
+</script>
+</head>
+<body>
+ <section>
+  <fieldset><legend>방송사별 예능 프로그램</legend>
+   <label for="broadcastx">방송사</label>
+   <select id="broadcastx" name="broadcast" onchange="broadcast(this)">
+   <option value="S1">SBS</option>
+   <option value="S2">KBS</option>
+   <option value="S3">MBC</option>
+   <option value="S4">JTBC</option>
+   </select>
+   <label for="program">프로그램</label>
+   <select id="programx" name="program">
+   </select>
+  </fieldset>
+ </section>
+</body></html>
