@@ -4,6 +4,9 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>방송사별 예능 프로그램</title>
+ <style>
+  #bu1 {color:blue;}
+ </style>
 <script>
 function broadcast(obj) {
 var SBS = [ "동상이몽2", "본격연예 한밤", "불타는 청춘", "백종원의 골목식당", "가로채널", "전설의 빅피쉬", "접속! 무비월드", "정글의 법칙", "SBS 인기가요", "런닝맨", "집사부일체", "미운 우리 새끼", "SBS 슈퍼콘서트", "THE SHOW", "윤도현의 더 스테이지 빅플레져"];
@@ -25,7 +28,7 @@ var target = document.getElementById("programx");
 </head>
 <body>
  <section>
-  <fieldset><legend>방송사별 예능 프로그램</legend>
+  <fieldset><legend id="bu1">방송사별 예능 프로그램</legend>
    <label for="broadcastx">방송사</label>
    <select id="broadcastx" name="broadcast" onchange="broadcast(this)">
    <option value="S1">SBS</option>
