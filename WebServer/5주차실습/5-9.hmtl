@@ -13,13 +13,13 @@
  <img src="https://ahnhg128.github.io/WebServer/5주차실습/웹서버 과제 5-9_1 코드.JPG" style="width:auto; "/>
  </picture>
   <picture>
- <source media="(min-width: 768px)" srcset="https://ahnhg128.github.io/WebServer/5주차실습/웹서버 과제 5-9_1 코드.JPG"/>
- <img src="https://ahnhg128.github.io/WebServer/5주차실습/웹서버 과제 5-9_1 코드.JPG" style="width:auto; "/>
+ <source media="(min-width: 768px)" srcset="https://ahnhg128.github.io/WebServer/5주차실습/웹서버 과제 5-9_2 코드.JPG"/>
+ <img src="https://ahnhg128.github.io/WebServer/5주차실습/웹서버 과제 5-9_2 코드.JPG" style="width:auto; "/>
  </picture>
 
  <p>결과화면</p>
  <picture>
-  <source media="(min-width: 768px)" srcset="https://ahnhg128.github.io/WebServer/5주차실습/웹서버 과제 5-9_1 결과.JPG"/>
-  <img src="https://ahnhg128.github.io/WebServer/5주차실습/웹서버 과제 5-9_1 결과.JPG" style="width:auto;"/>
+  <source media="(min-width: 768px)" srcset="https://ahnhg128.github.io/WebServer/5주차실습/웹서버 과제 5-9 결과.JPG"/>
+  <img src="https://ahnhg128.github.io/WebServer/5주차실습/웹서버 과제 5-9 결과.JPG" style="width:auto;"/>
  </picture>
 </section></body></html>
